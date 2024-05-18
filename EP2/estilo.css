@@ -1,0 +1,149 @@
+*{
+    padding:10px; 
+    margin:0; 
+    box-sizing: border-box; 
+    --color1:#F2F2F2; 
+    --color2:#BFBFBF;
+    --color3:#8C8C8C;
+    --color4:#404040;
+    --color5:#0D0D0D;
+    --color6:#FDFDFD;
+    --color7:#F23568;
+}
+
+#contenedor{
+    width: 75%; 
+    margin:20px auto; 
+    background-color: var(--color6);
+    color: var(--color5);
+}
+
+
+#cabecera{
+    display: flex; 
+    align-items: center; 
+    flex-wrap: wrap;
+    align-items: center; 
+    padding:10px; 
+    justify-content: space-between;
+}
+
+#menu{
+    align-items: center;
+    font-family: "Inconsolata", monospace; 
+}
+
+#menu a{
+    text-decoration: none;
+}
+
+#menu>ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.gps{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+
+#sesion{
+    border: 2px solid var(--color5);
+    padding: 5px;
+    width: 180px;
+    border-radius: 20px;
+}
+
+
+#registro{
+    border: 2px solid var(--color5);
+    background-color: var(--color5);
+    color: var(--color6);
+    padding: 5px;
+    width: 110px;
+    border-radius: 20px;
+}
+
+hr{
+    border-left:var(--color6);
+    border-right:var(--color6);
+    border-top: var(--color6);
+    border-bottom: 2px solid var(--color3);
+}
+
+
+#contenido{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-family: "Barlow", sans-serif;
+    font-size: 17.5px;
+}
+
+
+h2{
+    color: var(--color5);
+}
+
+#nota{
+    background-color: var(--color1); /* */
+    text-align: center;
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+}
+
+.ver{
+    background-color: var(--color7);
+    color: var(--color6);
+    padding: 10px;
+    width: 130px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.ver>a{
+    color: var(--color6);  
+    text-decoration: none;  
+}
+
+#nt{
+    background-color: var(--color2);
+    text-align: center;
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+}
+
+#segundo{
+    color:var(--color5);
+    font-family: "Bree Serif", serif;
+    align-items: center;
+    font-family: "Inconsolata", monospace; 
+}
+#segundo>ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    padding:5px;
+}
+
+#pie{
+    color:var(--color5);
+}
+#fotos{
+    display: flex;
+    font-family: "Bree Serif", serif;
+    justify-content: space-between;
+}
+
