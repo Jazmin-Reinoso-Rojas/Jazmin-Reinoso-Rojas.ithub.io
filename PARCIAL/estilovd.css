@@ -1,0 +1,139 @@
+:root{
+    box-sizing: border-box;
+    --color1:#D93654; 
+    --color2:#F23568;
+    --color3:#8C234A;
+    --color4:#1C0340;
+    --color5:#F2F2F2; 
+}
+main{
+    width: 75%;
+    margin: 20px auto;
+    background-color: var(--color4);
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: var(--color4);
+    height: 35%;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    flex-wrap: wrap;
+    padding-bottom:10px; 
+    justify-content: center;
+    z-index: 1000;
+
+}
+
+#logo a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+#logo img{
+    margin: 15px;
+    width: 25%;
+}
+
+
+#logo img:hover{
+    filter: drop-shadow(1px 1px 6px #c76388);
+}
+
+
+#menu{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#menu li{
+    list-style: none;
+}
+#menu li a{
+    color: var(--color3);
+    text-decoration: none;
+    padding: 15px;
+    font-family: "Barlow", sans-serif;
+}
+
+.pagina{
+    color:var(--color3);
+    text-decoration: underline;
+    font-family:"Concert One", sans-serif;
+}
+
+#menu a:hover{
+    color: var(--color5);
+}
+
+section{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+
+
+h1{
+    text-align: center;
+    color: var(--color1);
+    font-size: 30px;
+}
+p{
+    margin: 30px;
+    font-size: 20px;
+    color: var(--color5)
+}
+
+
+.video_responsive{
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.video_responsive iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+}    
+
+.video_responsive{
+    margin: 35px;
+    justify-content: center;
+    width: 100%;
+}
+
+footer{
+    height: 15%;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    flex-wrap: wrap;
+    padding-bottom:10px; 
+    justify-content: center;
+    color: var(--color2);
+
+}
+
+#rrdd{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.rd img {
+    width: 60px;
+    transition: opacity 0.3s ease;
+}
+
+.rd img:hover{
+    opacity: 0.7;
+}
