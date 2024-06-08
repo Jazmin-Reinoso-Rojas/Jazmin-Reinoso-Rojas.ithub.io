@@ -1,0 +1,176 @@
+:root{
+    box-sizing: border-box;
+    --color1:#F2F2F2; 
+    --color2:#FDAAC4;
+    --color3:#F3EAA5;
+    --color4:#FFD3E0; 
+    --color5:#B5CCFE; 
+    --color6:#FFABC5;
+    --color7:#D9E8FD; 
+    --color8:black;
+
+}
+
+main{
+    width: 75%;
+    margin: 20px auto;
+    background-color: var(--color1);
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: var(--color6) ;
+    height: 25%;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a img{
+    margin: 15px 60px ;
+    width: 35%;
+    height: auto;
+}
+
+
+nav img:hover{
+    filter: drop-shadow(4px 3px 6px var(--color3));
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 30;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li a{
+    color: var(--color1);
+    text-decoration: none;
+    font-family:"Freeman", sans-serif;
+    font-size:medium;
+    margin: 35px 50px;
+    padding: 8px;
+}
+
+.pagina{
+    color:var(--color3);
+    text-decoration: underline;
+    font-family:"Concert One", sans-serif;
+}
+
+
+#menu li a:hover{
+    color: var(--color1);
+    background-color: var(--color8);
+}
+
+
+section{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: var(--color4);
+    flex-wrap: wrap;
+}
+
+
+h3{
+    font-family: "Overpass", sans-serif;
+}
+
+ p{
+    margin: 30px;
+    font-family: "M PLUS 1p", sans-serif; ;
+ }
+
+ select{
+    height: 50%;
+    width: 100%;
+    columns: 3;
+    margin: 10px;
+    column-gap: 2em;
+}
+
+
+#formulario{
+    width:30%;
+    padding: 2px;
+    margin: 10px;
+    justify-content:center;
+    align-items: center;
+    text-align: left;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+
+input{
+    width: 90%;
+    padding: 10px;
+}
+
+textarea{
+    width: 90%;
+    height: 60px;
+    padding: 10px;
+}
+
+#but{    
+    text-align: left;
+    width: 105%;
+}
+
+
+#boton{
+    align-items: center;
+    background-color: var(--color5);
+    border: none;
+    padding: 10px;
+}
+
+#boton:hover{
+    background-color: var(--color8);
+    color: var(--color1);
+}
+
+ footer{
+    height: 15%;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    flex-wrap: wrap;
+    padding-bottom:10px; 
+    justify-content: center;
+    background-color: var(--color6);
+    color: var(--color1)
+}
+
+
+#columnas{
+    column-count: 4;
+    column-gap: 2em;
+    margin: 10px 50px;
+
+}
+#columnas img{
+    width: 60%;
+    height: 20%;
+    margin: 10px;
+}
