@@ -1,0 +1,219 @@
+:root{
+    box-sizing: border-box;
+    --color1:#D93654; 
+    --color2:#F23568;
+    --color3:#8C234A;
+    --color4:#1C0340;
+    --color5:#F2F2F2; 
+}
+main{
+    width: 75%;
+    margin: 20px auto;
+    background: linear-gradient(to bottom right, #1C0340 25%, #f2f2f2 150%);
+    display: grid;
+    grid-template-areas:"header header"
+                        "tablas formulario"
+                        "ubicacion ubicacion"
+                        "footer footer";
+    grid-template-columns: 2fr 1fr ;
+    gap: 40px;
+}
+
+
+header{
+    background-color: var(--color4);
+    grid-area: header;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; 
+    flex-wrap: wrap;
+    padding-bottom:10px; 
+    justify-content: center;
+    z-index: 1000;
+}
+
+#logo a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#logo img{
+    margin: 15px;
+    width: 25%;
+}
+
+
+#logo img:hover{
+    filter: drop-shadow(1px 1px 6px #c76388);
+}
+
+
+#menu{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#menu li{
+    list-style: none;
+}
+#menu li a{
+    color: var(--color3);
+    text-decoration: none;
+    padding: 15px;
+    font-family: "Barlow", sans-serif;
+}
+
+.pagina{
+    color:var(--color3);
+    text-decoration: underline;
+    font-family:"Concert One", sans-serif;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+    color: var(--color5);
+}
+
+
+h3{
+    color: var(--color2);
+    font-family: "Overpass", sans-serif;
+    text-align: center;
+}
+
+.tablas{
+    grid-area: tablas;
+    margin:50px;
+}
+
+table{
+    border: 1px solid var(--color5);
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th {
+    border: 1px solid var(--color5);
+    padding: 10px;
+    font-family: "Overpass", sans-serif;
+    color: var(--color2);
+    
+}
+td {
+    border: 1px solid var(--color5);
+    padding: 10px;
+    color: var(--color5);
+}
+
+strong{
+
+    color: var(--color2);
+    font-family: "Overpass", sans-serif;
+}
+
+
+.foto{
+    display: flex;
+    justify-content: center;}
+
+.foto img{
+    width: 40%;
+    border: 1px solid var(--color5);
+}
+
+.foto img:hover{
+    filter: drop-shadow(2px 2px 25px #F23568);
+}
+
+.formulario{
+    grid-area: formulario;
+}
+
+form {
+    padding: 25px;
+    background-color: var(--color6);
+    height: 100%;
+    width: 70%;
+    align-items: center; 
+    justify-content: center;
+    color: var(--color5);
+    font-family: "Fjalla One", sans-serif;
+}
+
+select{
+    width: 98%;
+    padding:15px;
+}
+
+input{
+    width: 100%;
+    padding:10px;
+}
+
+textarea{
+    width: 100%;
+    padding:35px 10px;
+}
+
+#but{    
+    text-align: center;
+}
+
+#boton{
+    width: 105%;
+    align-items: center;
+    background-color: var(--color2);
+    border: none;
+    padding: 15px;
+    color: var(--color5);
+}
+
+#boton:hover{
+    background-color: var(--color5);
+    color: var(--color2);
+}
+
+.ubicacion{
+    grid-area: ubicacion;
+    text-align: center;
+}
+
+footer{
+    flex-direction: column;
+    align-items: center; 
+    flex-wrap: wrap;
+    padding-bottom:10px; 
+    justify-content: center;
+    color: var(--color2);
+    grid-area: footer;
+    width:100%
+}
+
+
+address{
+    text-align: center;
+}
+
+
+figcaption{
+    color:var(--color5)
+}
+
+#rrdd{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.rd img {
+    width: 60px;
+    transition: opacity 0.3s ease;
+}
+
+.rd img:hover{
+    opacity: 0.7;
+}

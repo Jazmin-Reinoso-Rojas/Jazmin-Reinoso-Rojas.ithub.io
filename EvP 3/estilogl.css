@@ -1,0 +1,136 @@
+:root{
+    box-sizing: border-box;
+    --color1:#D93654; 
+    --color2:#F23568;
+    --color3:#8C234A;
+    --color4:#1C0340;
+    --color5:#F2F2F2; 
+}
+main{
+    width: 75%;
+    margin: 20px auto;
+    background-color: var(--color4);
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: var(--color4);
+    height: 35%;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    flex-wrap: wrap;
+    padding-bottom:10px; 
+    justify-content: center;
+    z-index: 1000;
+}
+
+#logo a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+#logo img{
+    margin: 15px;
+    width: 25%;
+}
+
+
+#logo img:hover{
+    filter: drop-shadow(1px 1px 6px #c76388);
+}
+
+
+#menu{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#menu li{
+    list-style: none;
+}
+#menu li a{
+    color: var(--color3);
+    text-decoration: none;
+    padding: 15px;
+    font-family: "Barlow", sans-serif;
+}
+
+.pagina{
+    color:var(--color3);
+    text-decoration: underline;
+    font-family:"Concert One", sans-serif;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+    color: var(--color5);
+}
+ 
+#galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#galeria img{
+    filter: grayscale(75%);
+
+}
+
+
+#galeria img:hover{
+    filter: drop-shadow(2px 2px 25px #F23568);
+}
+
+
+figure{
+    border: 1px;
+    padding: 20px;
+    text-align: center;
+}
+
+figure img{
+    border: 1px;
+    max-width: 300px;
+    max-height: 250px;
+    padding: 15px;
+    height: 400px;
+}
+
+
+footer{
+    height: 15%;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    flex-wrap: wrap;
+    padding-bottom:10px; 
+    justify-content: center;
+    color: var(--color2);
+
+}
+figcaption{
+    color:var(--color5)
+}
+
+#rrdd{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.rd img {
+    width: 60px;
+    transition: opacity 0.3s ease;
+}
+
+.rd img:hover{
+    opacity: 0.7;
+}
