@@ -1,0 +1,41 @@
+:root{
+    box-sizing: border-box;
+    --color1:#D93654; 
+    --color2:#F23568;
+    --color3:#8C234A;
+    --color4:#1C0340;
+    --color5:#F2F2F2; 
+}
+
+body{
+    background-color: var(--color4);
+}
+
+.navbar-brand{
+    color: var(--color5);
+}
+
+.nav-link{
+    color: var(--color5);
+}
+
+.container-fluid mb-3{
+    justify-content: center;
+    text-align: center;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.img-fluid:hover{
+    filter: drop-shadow(2px 2px 25px #F23568);
+}
+
+.text-beige{
+    color: var(--color5);
+}
+
+.text-dos{
+    color: var(--color1);
+}
