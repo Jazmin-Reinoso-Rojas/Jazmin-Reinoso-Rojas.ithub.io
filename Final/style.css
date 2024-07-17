@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.text-justify{
+    text-align: justify;
+}
+
+.rounded-img {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.a img {
+    width: 50%; 
+    height: auto; 
+    object-fit: cover;
+}
+
+#conoce{
+    background-color: #A698A0;
+}
+
+#an i {
+    font-size: 50px; 
+}
+
+
+.navbar-brand i {
+    font-size: 35px; 
+}
+
+
+#redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#redes i{
+    padding: 10px;
+    font-size: 40px; 
+}
